@@ -1,7 +1,7 @@
-from unittest import TestCase
+import pytest
 from ipynb.fs.full.index import *
 
-def test_add0(self):
+def test_add0():
     a = Point(x=None, y=None, a=5, b=7)
     b = Point(x=2, y=5, a=5, b=7)
     c = Point(x=2, y=-5, a=5, b=7)
